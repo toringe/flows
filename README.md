@@ -43,6 +43,6 @@ When setting up a processing cluster, I recommend adding a dedicated flows user 
 
 On the main server, you should update the ssh config in the `PRIVKEY` directory, with all the nodes in the cluster. The flows script will automatically configure the users .ssh directory if the config file and the private keys are accessible.
 
-DEPENDENCIES: This script assumes a specific sub-directory layout for the nfcapd data storage (layout S1 as defined in the nfcapd documentation). The structure should be <probe>/<year>/<month>/<day>/<datafiles>. Another depenency is the usage of 5 minutes intervals between data file rotation.
+DEPENDENCIES: This script assumes a specific sub-directory layout for the nfcapd data storage (layout S1 as defined in the nfcapd documentation). The structure should be `<probe>/<year>/<month>/<day>/<datafiles>`. Another depenency is the usage of 5 minutes intervals between data file rotation.
 
 
